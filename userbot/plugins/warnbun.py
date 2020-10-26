@@ -9,7 +9,7 @@ from userbot.utils import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`You Have  1/3  warnings...\nWatch out!....\nReason for warn: Dumb User`"
+    mentions = "`You Have  1/3  warnings...\nWatch out!....\nReason for warn:Dumb User`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -28,7 +28,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`You Have  2/3  warnings...\nWatch out!....\nReason for last warn: Shit!! A Dumb User Again`"
+    mentions = "`You Have  2/3  warnings...\nWatch out!....\nReason for last warn:Shit!! A Dumb User Again`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -47,7 +47,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`You Have  3/3  warnings...\nBanned!!!....\nReason for ban: Shit !! Why The Users Are So Dumb`"
+    mentions = "`You Have  3/3  warnings...\nBanned!!!....\nReason for ban:Shit!! How Can A User Be So Dumb`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
